@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: shutdown hosts
+    command:  reboot
+...
