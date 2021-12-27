@@ -1,6 +1,7 @@
 ---
 - hosts: all
   tasks:
+#  addeD a comment
   - name: shutdown hosts
     command:  poweroff
 ...
